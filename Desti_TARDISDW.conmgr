@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Desti_TARDISDW"
+  DTS:DTSID="{5EAE1CA0-D613-4852-A815-EC9910A11479}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=.;Initial Catalog=TARDISDW;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-DWH_LoadDimPolicy-{5EAE1CA0-D613-4852-A815-EC9910A11479}LocalHost.TARDISDW;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
